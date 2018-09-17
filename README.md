@@ -19,7 +19,7 @@ This app uses:
 
 ### Intructions:
 
-1. Use the following link to acess the application: 
+1. Use the following link to acess the application: https://frozen-hollows-17569.herokuapp.com/
 
 2. Clone the files and run using server.js in the command line and run it locally on using localhost:3000
 *** Remember to npm install
