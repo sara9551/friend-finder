@@ -196,7 +196,7 @@
 
 
         $(document).ready(function () {
-            // when clicking submit, it will invoke the function -->
+            // when clicking submit, it will invoke the function
             $(".btn btn-primary btn-lg").on("click", function () {
 
                 var userInput = {
@@ -216,12 +216,14 @@
                     ]
                 };
 
+                // AJAX --> loads data, in this case the friends API i created, from the server
                 $.post("/api/friends", userInput)
 
-
+                // takes the outcome from the AJAX post and "posts" the name and picture of the user's best match
                         $("#newFriend").text(data.name);
                         $("#newFriendImage").attr("src", data.photo);
 
+                // opens/shows the modal with the above info
                         $(".modal").modal("open");
                     });
 
