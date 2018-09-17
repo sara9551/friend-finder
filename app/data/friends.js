@@ -1,4 +1,4 @@
-// friends (DATA)
+// friends (DATA/API)
 var friends = [
   {
       name: "Yoda",

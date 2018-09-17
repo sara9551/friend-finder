@@ -2,7 +2,7 @@ var path = require("path");
 module.exports = function(app) {
 	
 	// Routes
-	app.get("/survey", function(req, res) {
+	app.get("/survey", function(_req, res) {
 		res.sendFile(path.join(__dirname, "/../public/survey.html"));
 	});
 	app.use(function (req, res){
